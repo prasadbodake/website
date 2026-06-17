@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ZenByte Apps">
+    <meta name="description" content="Read the latest blogs and articles from ZenByte Apps about software development, productivity tools, and technology insights.">
+    <title>Blogs - ZenByte Apps</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-brand" aria-label="ZenByte Apps home">
+                    <img src="images/favicon.svg" alt="" class="brand-logo" width="36" height="36">
+                    <span class="logo">ZenByte Apps</span>
+                </a>
+                <ul class="nav-links" id="primary-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="index.html#products"><i class="fas fa-box"></i> Products</a></li>
+                    <li><a href="blogs.html" class="active"><i class="fas fa-blog"></i> Blogs</a></li>
+                    <li><a href="support.html"><i class="fas fa-life-ring"></i> Support</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-menu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-container">
+        <section class="blog-section">
+            <div class="blog-header">
+                <h1>Our Blogs</h1>
+                <p>Insights, updates, and stories from the world of Windows apps</p>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Featured Blog Post -->
+                <article class="blog-post featured">
+                    <div class="blog-image">
+                        <img src="images/webcam-surveillance.jpeg" alt="Webcam Surveillance">
+                        <div class="blog-category">Featured</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="fas fa-calendar"></i>May 26, 2025</span>
+                            <span class="blog-author"><i class="fas fa-user"></i>ZenByte Apps</span>
+                            <span class="blog-category-tag">Webcam Surveillance</span>
+                        </div>
+                        <h2><a href="blogs/guide-to-webcam-surveillance.html">The Ultimate Guide to Cost-Effective and Easy Webcam Surveillance</a></h2>
+                        <p>Discover how to transform your webcam into an affordable, easy-to-use surveillance system. Learn about cost savings, essential features, and tips to maximize your security.</p>                        
+                        <a href="blogs/guide-to-webcam-surveillance.html" class="btn btn-read-more">Read Full Article</a>
+                    </div>
+                </article>
+
+                <!-- Regular Blog Posts -->
+                <article class="blog-post" hidden>
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop" alt="Data Analytics">
+                        <div class="blog-category">Technology</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="fas fa-calendar"></i> October 24, 2024</span>
+                            <span class="blog-author"><i class="fas fa-user"></i> Mike Chen</span>
+                            <span class="blog-category-tag">Analytics</span>
+                        </div>
+                        <h3><a href="blogs/future-data-analytics.html">The Future of Data Analytics: AI-Powered Insights</a></h3>
+                        <p>Discover how artificial intelligence is revolutionizing the way we analyze and interpret data, providing deeper insights and more accurate predictions than ever before.</p>
+                        <a href="blogs/future-data-analytics.html" class="btn btn-read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <a href="index.html" class="nav-brand" aria-label="ZenByte Apps home">
+                        <img src="images/favicon.svg" alt="" class="brand-logo" width="32" height="32">
+                        <span class="logo logo-light">ZenByte Apps</span>
+                    </a>
+                    <p>Fast, private, native Windows software for productivity and security. Free on the Microsoft Store.</p>
+                    <a class="store-link" href="https://apps.microsoft.com/store/search?publisher=ZenByte%20Apps" target="_blank" rel="noopener">
+                        <i class="fab fa-microsoft" aria-hidden="true"></i> View on Microsoft Store
+                    </a>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="product.html?name=webcam-capture">Webcam Capture</a></li>
+                        <li><a href="product.html?name=duplicate-file-cleaner-pro">Duplicate File Cleaner Pro</a></li>
+                        <li><a href="product.html?name=desk-time-monitor">Desk Time Monitor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="index.html#why">Why ZenByte</a></li>
+                        <li><a href="blogs.html">Blog</a></li>
+                        <li><a href="index.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="support.html">Help &amp; Support</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2026</span> ZenByte Apps. All rights reserved.</p>
+                <ul class="footer-legal">
+                    <li><a href="privacy-policy.html">Privacy</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html> 

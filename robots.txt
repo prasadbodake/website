@@ -1,0 +1,39 @@
+# ZenByte Apps - Robots.txt
+# This file controls search engine crawling behavior
+
+User-agent: *
+Allow: /
+
+# Disallow sensitive directories and files
+Disallow: /error/
+Disallow: /.git/
+Disallow: /.vs/
+Disallow: /security-headers.html
+Disallow: /SECURITY_GUIDE.md
+Disallow: /EMAIL_SETUP_GUIDE.md
+
+# Disallow common sensitive file extensions
+Disallow: /*.htaccess
+Disallow: /*.htpasswd
+Disallow: /*.ini
+Disallow: /*.log
+Disallow: /*.sql
+Disallow: /*.conf
+Disallow: /*.bak
+Disallow: /*.backup
+Disallow: /*.old
+Disallow: /*.tmp
+
+# Allow important pages
+Allow: /index.html
+Allow: /contact.html
+Allow: /blogs.html
+Allow: /product.html
+Allow: /support.html
+Allow: /privacy-policy.html
+
+# Sitemap location
+Sitemap: https://zenbyteapps.com/sitemap.xml
+
+# Crawl delay (optional - slows down crawling)
+# Crawl-delay: 1

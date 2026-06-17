@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Support | ClutterLens</title>
+    <meta name="description" content="Get help with ClutterLens, find answers to common questions, report bugs, and contact support.">
+    <meta name="keywords" content="ClutterLens support, ClutterLens help, macOS duplicate file cleaner support, Mac duplicate finder FAQ, ClutterLens bug report, ZenByte Apps support">
+    <meta name="author" content="ZenByte Apps">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Support | ClutterLens">
+    <meta property="og:description" content="Get help with ClutterLens, find answers to common questions, report bugs, and contact support.">
+    <meta property="og:url" content="https://zenbyteapps.com/support.html">
+    <meta property="og:site_name" content="ZenByte Apps">
+    <meta property="og:image" content="https://zenbyteapps.com/images/og-default.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Support | ClutterLens">
+    <meta name="twitter:description" content="Get help with ClutterLens, find answers to common questions, report bugs, and contact our support team.">
+    <meta name="twitter:image" content="https://zenbyteapps.com/images/og-default.png">
+
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#6366F1">
+    <meta name="apple-mobile-web-app-title" content="ZenByte Apps">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://zenbyteapps.com/support.html">
+
+    <!-- Security Meta Tags -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></noscript>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How does ClutterLens find duplicate files?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ClutterLens analyzes the actual content of your files rather than relying on file names alone. It compares files within the folders you select and groups true duplicates together so you can review them before removing them. All of this analysis happens locally on your Mac."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are my files uploaded to the internet?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. ClutterLens performs all scanning and analysis locally on your Mac. Your files and their contents are never uploaded to any server or shared with any third party."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is my data private?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. ClutterLens does not require an account, does not collect personal information, and does not use analytics or tracking. It uses Sentry only for crash reporting, and that diagnostic data never includes your file contents."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I scan external drives?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. You can select external drives and connected storage as scan locations, as long as they are mounted and you grant ClutterLens permission to access them."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can deleted files be recovered?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ClutterLens lets you review duplicates before removing them and is designed for safe deletion. Depending on your settings and macOS, removed files may be moved to the Trash, from which they can be restored until the Trash is emptied. Once the Trash is emptied, recovery may not be possible, so always review your selections carefully."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How long does scanning take?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Scanning speed depends on the number and size of files in the folders you select and the speed of your drive. ClutterLens uses a fast scanning engine, but very large libraries or slower external drives will take longer to process."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What file types are supported?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "ClutterLens can detect duplicates across a wide range of file types, including images, documents, videos, audio, and other common file formats, because it compares file content rather than relying on a specific extension."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why are some files not shown?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Files may not appear if they are unique (no duplicate exists), if they are located outside the folders you selected, or if macOS permissions prevent access to certain protected system locations. Make sure you have granted ClutterLens access to the folders you want to scan."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I report a bug?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Email info@zenbyteapps.com with your app version, macOS version, steps to reproduce the issue, and screenshots if available. This helps us diagnose and fix the problem quickly."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How do I request a feature?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We welcome your ideas. Email info@zenbyteapps.com with a description of the feature you would like to see and how it would help you. We review every suggestion."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-brand" aria-label="ZenByte Apps home">
+                    <img src="images/favicon.svg" alt="" class="brand-logo" width="36" height="36">
+                    <span class="logo">ZenByte Apps</span>
+                </a>
+                <ul class="nav-links" id="primary-menu">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="index.html#products"><i class="fas fa-box"></i> Products</a></li>
+                    <li><a href="blogs.html"><i class="fas fa-blog"></i> Blogs</a></li>
+                    <li><a href="support.html" class="active"><i class="fas fa-life-ring"></i> Support</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-menu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-container">
+        <section class="support-section">
+            <header class="legal-header">
+                <h1><i class="fas fa-life-ring"></i> ClutterLens Support</h1>
+                <p class="legal-subtitle">Help, answers, and ways to reach us</p>
+            </header>
+
+            <!-- Overview -->
+            <div class="support-card" id="overview">
+                <h2><i class="fas fa-info-circle"></i> Overview</h2>
+                <p>ClutterLens is a native macOS utility that helps you find duplicate files and reclaim storage space on your Mac. Select the folders you want to check, let ClutterLens scan them, review the duplicate groups it finds, compare files, and safely remove the copies you no longer need. All analysis happens locally on your device, so your files stay private and never leave your Mac.</p>
+            </div>
+
+            <!-- Features -->
+            <div class="support-card" id="features">
+                <h2><i class="fas fa-star"></i> Features</h2>
+                <ul class="support-feature-list">
+                    <li><i class="fas fa-check-circle"></i> <span><strong>Duplicate file detection</strong> &ndash; content-based scanning finds true duplicates, not just matching names.</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span><strong>Multi-folder scanning</strong> &ndash; scan several folders or drives in a single pass.</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span><strong>Safe review workflow</strong> &ndash; review and confirm every group before anything is removed.</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span><strong>Fast scanning</strong> &ndash; an efficient engine designed for speed on modern Macs.</span></li>
+                    <li><i class="fas fa-check-circle"></i> <span><strong>Local processing</strong> &ndash; everything runs on your Mac; files are never uploaded.</span></li>
+                </ul>
+            </div>
+
+            <!-- FAQ -->
+            <div class="support-card" id="faq">
+                <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>How does ClutterLens find duplicate files?</summary>
+                        <div class="faq-answer">
+                            <p>ClutterLens analyzes the actual content of your files rather than relying on file names alone. It compares files within the folders you select and groups true duplicates together so you can review them before removing them. All of this analysis happens locally on your Mac.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Are my files uploaded to the internet?</summary>
+                        <div class="faq-answer">
+                            <p>No. ClutterLens performs all scanning and analysis locally on your Mac. Your files and their contents are never uploaded to any server or shared with any third party.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Is my data private?</summary>
+                        <div class="faq-answer">
+                            <p>Yes. ClutterLens does not require an account, does not collect personal information, and does not use analytics or tracking. It uses Sentry only for crash reporting, and that diagnostic data never includes your file contents. Read our <a href="privacy-policy.html">Privacy Policy</a> for full details.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Can I scan external drives?</summary>
+                        <div class="faq-answer">
+                            <p>Yes. You can select external drives and connected storage as scan locations, as long as they are mounted and you grant ClutterLens permission to access them.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Can deleted files be recovered?</summary>
+                        <div class="faq-answer">
+                            <p>ClutterLens lets you review duplicates before removing them and is designed for safe deletion. Depending on your settings and macOS, removed files may be moved to the Trash, from which they can be restored until the Trash is emptied. Once the Trash is emptied, recovery may not be possible, so always review your selections carefully.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How long does scanning take?</summary>
+                        <div class="faq-answer">
+                            <p>Scanning speed depends on the number and size of files in the folders you select and the speed of your drive. ClutterLens uses a fast scanning engine, but very large libraries or slower external drives will take longer to process.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>What file types are supported?</summary>
+                        <div class="faq-answer">
+                            <p>ClutterLens can detect duplicates across a wide range of file types, including images, documents, videos, audio, and other common formats, because it compares file content rather than relying on a specific extension.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Why are some files not shown?</summary>
+                        <div class="faq-answer">
+                            <p>Files may not appear if they are unique (no duplicate exists), if they are located outside the folders you selected, or if macOS permissions prevent access to certain protected system locations. Make sure you have granted ClutterLens access to the folders you want to scan.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How do I report a bug?</summary>
+                        <div class="faq-answer">
+                            <p>Email <a href="mailto:info@zenbyteapps.com">info@zenbyteapps.com</a> with your app version, macOS version, steps to reproduce the issue, and screenshots if available. See the <a href="#bug-reports">Bug Reports</a> section below for the details we need.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>How do I request a feature?</summary>
+                        <div class="faq-answer">
+                            <p>We welcome your ideas. Email <a href="mailto:info@zenbyteapps.com">info@zenbyteapps.com</a> with a description of the feature you would like to see and how it would help you. We review every suggestion.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+
+            <!-- Contact Support -->
+            <div class="support-card" id="contact-support">
+                <h2><i class="fas fa-headset"></i> Contact Support</h2>
+                <p>Need a hand? Our team is here to help with any questions about ClutterLens.</p>
+                <p class="legal-contact">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@zenbyteapps.com">info@zenbyteapps.com</a>
+                </p>
+                <p class="support-note">We typically respond within 1&ndash;3 business days.</p>
+            </div>
+
+            <!-- Bug Reports -->
+            <div class="support-card" id="bug-reports">
+                <h2><i class="fas fa-bug"></i> Bug Reports</h2>
+                <p>Found something that isn't working as expected? Please email <a href="mailto:info@zenbyteapps.com?subject=ClutterLens%20Bug%20Report">info@zenbyteapps.com</a> and include the following so we can reproduce and fix the issue quickly:</p>
+                <ul class="support-checklist">
+                    <li><i class="fas fa-angle-right"></i> <strong>App version</strong> (found in ClutterLens &rarr; About ClutterLens)</li>
+                    <li><i class="fas fa-angle-right"></i> <strong>macOS version</strong> (Apple menu &rarr; About This Mac)</li>
+                    <li><i class="fas fa-angle-right"></i> <strong>Steps to reproduce</strong> the problem</li>
+                    <li><i class="fas fa-angle-right"></i> <strong>Screenshots</strong> (if applicable)</li>
+                </ul>
+            </div>
+
+            <!-- Feature Requests -->
+            <div class="support-card" id="feature-requests">
+                <h2><i class="fas fa-lightbulb"></i> Feature Requests</h2>
+                <p>ClutterLens grows with your feedback. If you have an idea that would make finding and clearing duplicates easier, we'd love to hear it. Tell us what you'd like to do and how it would help your workflow, and email your suggestion to <a href="mailto:info@zenbyteapps.com?subject=ClutterLens%20Feature%20Request">info@zenbyteapps.com</a>. Every idea is reviewed by our team.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <a href="index.html" class="nav-brand" aria-label="ZenByte Apps home">
+                        <img src="images/favicon.svg" alt="" class="brand-logo" width="32" height="32">
+                        <span class="logo logo-light">ZenByte Apps</span>
+                    </a>
+                    <p>Fast, private, native software for productivity, security, and storage optimization on Windows and Mac.</p>
+                    <a class="store-link" href="https://apps.microsoft.com/store/search?publisher=ZenByte%20Apps" target="_blank" rel="noopener">
+                        <i class="fab fa-microsoft" aria-hidden="true"></i> View on Microsoft Store
+                    </a>
+                </div>
+                <div class="footer-col">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="product.html?name=webcam-capture">Webcam Capture</a></li>
+                        <li><a href="product.html?name=duplicate-file-cleaner-pro">Duplicate File Cleaner Pro</a></li>
+                        <li><a href="product.html?name=desk-time-monitor">Desk Time Monitor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="index.html#why">Why ZenByte</a></li>
+                        <li><a href="blogs.html">Blog</a></li>
+                        <li><a href="support.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="support.html">Help &amp; Support</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="year">2026</span> ZenByte Apps. All rights reserved.</p>
+                <ul class="footer-legal">
+                    <li><a href="privacy-policy.html">Privacy</a></li>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
