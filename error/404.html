@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found - ZenByte Apps</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .error-container {
+            text-align: center;
+            padding: 100px 20px;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .error-code {
+            font-size: 8rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 1rem;
+        }
+        .error-message {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        .error-description {
+            font-size: 1.1rem;
+            color: #888;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        .back-home {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .back-home:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <i class="fas fa-code"></i>
+                    <h1 class="logo">ZenByte Apps</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="../index.html#products"><i class="fas fa-box"></i> Products</a></li>
+                    <li><a href="../blogs.html"><i class="fas fa-blog"></i> Blogs</a></li>
+                    <li><a href="../contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="error-container">
+            <div class="error-code">404</div>
+            <h1 class="error-message">Page Not Found</h1>
+            <p class="error-description">
+                The page you're looking for doesn't exist. It might have been moved, deleted, or you entered the wrong URL.
+            </p>
+            <a href="../index.html" class="back-home">
+                <i class="fas fa-home"></i>
+                Back to Home
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ZenByte Apps. All rights reserved. | <a href="../privacy-policy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

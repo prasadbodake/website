@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-label="ZenByte Apps">
+  <defs>
+    <linearGradient id="zbLogoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="15" fill="url(#zbLogoGrad)"/>
+  <path d="M20 21h24v6.4L28.8 43H44v6H20v-6.4L35.2 27H20z" fill="#fff"/>
+  <text x="80" y="33" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="24" font-weight="700" fill="#0F172A">ZenByte</text>
+  <text x="80" y="52" font-family="'Segoe UI',system-ui,-apple-system,sans-serif" font-size="15" font-weight="500" fill="#6366F1" letter-spacing="3">APPS</text>
+</svg>
